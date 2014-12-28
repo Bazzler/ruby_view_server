@@ -1,9 +1,15 @@
+  <%
+    def link_to(name, url)
+        return "<a href='#{url}'>#{name}</a>"
+     end
+    %>
+
 <html>
   <body>
-    <h1>You're using a layout</h1>
+    <h1>POST BEAT</h1>
     <p>
-      <h3> I'm a header</h3>
-      <p>Put things in the header</p>
+      <h3> 'If you can't do it lying down, it's not worth doing' - E.Duffus 28/12/14</h3>
+      <p>Lets find out more...</p>
       <a href='me.html'>Me</a>
 
     </p>
@@ -13,8 +19,8 @@
     </div>
     <hr />
     <div>
-      <h3> I'm a footer</h3>
-      <p>Put things in the footer</p>
+      <h3> Please check all these things</h3>
+      <p> <%= link_to('HopelessCoders Blog', 'https://hopelesscoders.wordpress.com/') %></p>
     </div>
   </body>
 </html>

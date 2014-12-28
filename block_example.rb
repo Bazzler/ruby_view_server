@@ -11,5 +11,3 @@ end
 puts wrap_around_contents { " my contents" }
 ## We can call the function and provide it a block it will give us this output
 # => "hey your contents =>| my contents |<= have been wrapped"
-
-
